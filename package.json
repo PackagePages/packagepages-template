@@ -4,8 +4,8 @@
   "description": "A starter template for your package page",
   "main": "src/index.html",
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/style.css -o ./dist/style.css",
-    "dev:watch": "npx tailwindcss -i ./src/style.css -o ./dist/style.css --watch"
+    "dev": "npx tailwindcss -i ./src/style.css -o ./docs/style.css && cp ./src/index.html ./docs/index.html",
+    "dev:watch": "npx tailwindcss -i ./src/style.css -o ./docs/style.css --watch && cp ./src/index.html ./docs/index.html"
   },
   "repository": {
     "type": "git",
