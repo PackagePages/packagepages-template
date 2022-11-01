@@ -1,0 +1,26 @@
+{
+  "name": "package-pages-template",
+  "version": "0.0.1",
+  "description": "A starter template for your package page",
+  "main": "src/index.html",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/style.css -o ./dist/style.css",
+    "dev:watch": "npx tailwindcss -i ./src/style.css -o ./dist/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PackagePages/packagepages-template.git"
+  },
+  "keywords": [
+    "packagepages"
+  ],
+  "author": "Lars Wiegers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PackagePages/packagepages-template/issues"
+  },
+  "homepage": "https://github.com/PackagePages/packagepages-template#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.1"
+  }
+}
